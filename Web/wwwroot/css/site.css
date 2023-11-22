@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Estilo para los botones de la barra de navegación */
+.navbar-nav .nav-item {
+    border: 1px solid #ccc; /* Añade un borde de 1 píxel sólido de color gris claro */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    margin: 2px; /* Añade un pequeño margen entre los botones */
+}
+
+    /* Estilo para los enlaces dentro de los botones */
+    .navbar-nav .nav-item a {
+        padding: 8px 12px; /* Añade un relleno interno para mejorar la apariencia */
+        display: block; /* Hace que los enlaces ocupen todo el ancho del botón */
+        text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+        color: #333; /* Cambia el color del texto de los enlaces */
+    }
+
+        /* Estilo para los enlaces cuando se les pasa el ratón por encima */
+        .navbar-nav .nav-item a:hover {
+            background-color: #eee; /* Cambia el color de fondo cuando se pasa el ratón por encima */
+        }
